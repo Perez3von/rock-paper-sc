@@ -1,1 +1,27 @@
 /* add home page styles here */
+
+.my-images {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"]:checked + img {
+  border: 5px solid rgb(255, 202, 56);
+  border-radius: 50%;
+}
+
+input[type="radio"]:not(:checked) + img:hover {
+  opacity: 50%;
+  cursor: pointer;
+}
+
+#results-history{
+
+display: flex;
+flex-direction: row;
+}

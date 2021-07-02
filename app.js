@@ -9,10 +9,13 @@ const wins_section = document.getElementById('wins');
 const losses_section = document.getElementById('losses');
 const draws_section = document.getElementById('draws');
 const compare_section = document.getElementById('compare-section');
+const reset_button = document.getElementById('reset-button');
+const reset_counter_section = document.getElementById('reset-counter');
 
 let wins = 0;
 let losses = 0;
 let draws = 0; 
+let reset = 0;
 
 play_btn.addEventListener('click', () => {
 

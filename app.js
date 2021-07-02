@@ -46,3 +46,15 @@ play_btn.addEventListener('click', () => {
     }
 
 });
+
+reset_button.addEventListener('click', ()=> {
+    // wins, losses, draws = 0; <-----didn't reset them
+    wins = 0;
+    losses = 0;
+    draws = 0;
+    wins_section.innerText = '';
+    losses_section.innerText = '';
+    draws_section.innerText = '';
+    reset++;
+    reset_counter_section.innerText = `Resets: ${reset}`;
+});
